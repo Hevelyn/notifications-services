@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 exports.__esModule = true;
 exports.HttpModule = void 0;
-var send_notification_1 = require("./../../app/use-cases/send-notification");
+var send_notification_1 = require("@app/use-cases/send-notification");
 var common_1 = require("@nestjs/common");
 var notifications_controller_1 = require("./controllers/notifications.controller");
 var database_module_1 = require("../database/database.module");
